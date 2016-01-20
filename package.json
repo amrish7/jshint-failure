@@ -1,0 +1,27 @@
+{
+  "name": "jshint-failure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci-lint": "./node_modules/.bin/gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrish7/jshint-failure.git"
+  },
+  "author": "Amrish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amrish7/jshint-failure/issues"
+  },
+  "homepage": "https://github.com/amrish7/jshint-failure#readme",
+  "devDependencies": {
+    "babel": "^5.0.9",
+    "babelify": "^6.0.1",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.10.0",
+    "jshint": "^2.8.0"
+  }
+}
