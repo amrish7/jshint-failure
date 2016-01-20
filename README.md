@@ -2,9 +2,11 @@
 
 ## Setup
  1. Execute `npm install`
- 2. Execute `npm run ci-lint` - There should not be any jshint failures at this point
+ 2. Execute `npm run ci-lint`
+    * There should not be any jshint failures at this point
  3. Execute `npm install jshint@2.9.1 --save-dev`
- 4. Execute `npm run ci-lint` one more time - jshint would fail with following errors
+ 4. Execute `npm run ci-lint` one more time
+    * jshint would fail with following errors
 
 ```
 [17:02:58] Starting 'lint'...
